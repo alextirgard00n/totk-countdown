@@ -42,3 +42,11 @@ function animateCSS(element) {
 
 countdown();
 setInterval(countdown, 1000);
+
+const korok = document.querySelector(".korok");
+korok.onclick = playSoundClick;
+
+function playSoundClick() {
+    const audio = new Audio(`media/yahaha - noise removed.mp3`);
+    audio.play();
+}

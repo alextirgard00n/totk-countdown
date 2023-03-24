@@ -80,6 +80,13 @@ p {
     text-align: center;
 }
 
+.korok {
+    padding-bottom: .5em;
+}
+
+.korok:hover {
+    cursor: pointer;
+}
 
 .animation {
     animation-name: scale-up;
@@ -118,10 +125,10 @@ p {
     .totk-logo {
         width: 20em;
         /* width: 140px; */
-        padding-top: 1rem;
+        padding-top: .5rem;
     }
 
     .countdown-text {
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
     }
 }
