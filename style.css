@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     max-height: -webkit-fill-available;
     width: 100%;
     position: relative;
@@ -44,6 +44,7 @@ main {
     justify-content: center;
     align-items: center;
     max-width: 75em;
+    height: 100%;
 }
 
 .totk-logo {
