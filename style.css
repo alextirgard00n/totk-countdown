@@ -113,4 +113,8 @@ p {
     .countdown-text {
         padding-bottom: 2rem;
     }
+
+    body {
+        overflow: hidden;
+    }
 }
