@@ -35,6 +35,7 @@ function countdown() {
     }
 }
 
+
 function animateCSS(element) {
     element.classList.add("animation");
     setTimeout(() => element.classList.remove("animation"), 500);
@@ -43,10 +44,15 @@ function animateCSS(element) {
 countdown();
 setInterval(countdown, 1000);
 
-const korok = document.querySelector(".korok");
-korok.onclick = playSoundClick;
+//korok click arrow function
+document.querySelector(".korok").onclick = () => new Audio("media/yahaha - noise removed.mp3").play();
 
-function playSoundClick() {
-    const audio = new Audio(`media/yahaha - noise removed.mp3`);
-    audio.play();
-}
+// const korok = document.querySelector(".korok");
+// korok.onclick = playSoundClick;
+
+// function playSoundClick() {
+//     const audio = new Audio(`media/yahaha - noise removed.mp3`);
+//     audio.play();
+// }
+
+
