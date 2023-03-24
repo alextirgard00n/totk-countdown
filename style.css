@@ -13,7 +13,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
+    max-height: -webkit-fill-available;
     width: 100%;
     position: relative;
     background-color: black;
@@ -112,9 +113,5 @@ p {
 
     .countdown-text {
         padding-bottom: 2rem;
-    }
-
-    body {
-        height: 100vh;
     }
 }
